@@ -34,6 +34,7 @@ public class Dev {
         return this.conteudosConcluidos.stream().mapToDouble(Conteudo::calcularXP).sum();
     }
 
+
     //getter and setters---------------------------------------------------------------------------------
     public String getNome() {
         return nome;
